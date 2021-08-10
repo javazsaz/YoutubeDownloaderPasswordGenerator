@@ -7,7 +7,7 @@ const express = require("express");
 const app = new express();
 
 var password = "";
-app.listen(8080, () => {
+app.listen(process.env.PORT || 8080, () => {
 	console.log("Server started");
 
 	//When bot is started
