@@ -1,0 +1,19 @@
+{
+  "name": "youtubedownloaderpasswordgenerator",
+  "version": "1.0.0",
+  "description": "Telegram Bot that generate password to access into YoutubeDownloader",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morris.penasso@protonmail.comYoutubeDownloaderPasswordGenerator.git"
+  },
+  "author": "Morris Penasso",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.13.6",
+    "telegraf": "^4.4.1"
+  }
+}
